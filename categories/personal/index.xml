@@ -1,36 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Personal on lzc's Blog</title><link>https://lzcooker.github.io/categories/personal/</link><description>Recent content in Personal on lzc's Blog</description><image><title>lzc's Blog</title><url>https://lzcooker.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://lzcooker.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.146.7</generator><language>zh</language><copyright>©2025 lzc&amp;rsquo;s Blog</copyright><lastBuildDate>Fri, 25 Apr 2025 11:01:38 +0800</lastBuildDate><atom:link href="https://lzcooker.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Github Pages+PaperMod个人博客搭建</title><link>https://lzcooker.github.io/posts/hugo+github-pages+papermod_blog/</link><pubDate>Fri, 25 Apr 2025 11:01:38 +0800</pubDate><guid>https://lzcooker.github.io/posts/hugo+github-pages+papermod_blog/</guid><description>&lt;blockquote>
-&lt;p>本文用于参考其他&lt;a href="https://lflmlxy.github.io/posts/create-blog/">教程&lt;/a>，给出完整步骤完整复现，细节省略。&lt;/p>&lt;/blockquote>
-&lt;h1 id="安装">安装&lt;/h1>
-&lt;ol>
-&lt;li>安装hugo&lt;/li>
-&lt;li>创建GitHub Page仓库，用于展示站点内容&lt;/li>
-&lt;li>创建blog源文件托管私有仓库&lt;/li>
-&lt;li>创建站点&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln"> 1&lt;/span>&lt;span class="cl">&lt;span class="c1">#a.创建站点&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 2&lt;/span>&lt;span class="cl">hugo new site blog_source
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 3&lt;/span>&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 4&lt;/span>&lt;span class="cl">&lt;span class="c1">#b.下载主题&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 5&lt;/span>&lt;span class="cl">git submodule add --depth&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span> https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 6&lt;/span>&lt;span class="cl">git submodule update --init --recursive
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 7&lt;/span>&lt;span class="cl">git submodule update --remote --merge
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 8&lt;/span>&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 9&lt;/span>&lt;span class="cl">&lt;span class="c1">#c.修改hugo.toml指定主题&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">10&lt;/span>&lt;span class="cl">&lt;span class="nv">theme&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">[&lt;/span>&lt;span class="s2">&amp;#34;PaperMod&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">11&lt;/span>&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">12&lt;/span>&lt;span class="cl">&lt;span class="c1">#d.绑定远程仓库提交代码&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">13&lt;/span>&lt;span class="cl">git init
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">14&lt;/span>&lt;span class="cl">git remote add origin git@github.com:lzcooker/blog_source.git
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">15&lt;/span>&lt;span class="cl">git checkout -b main
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">16&lt;/span>&lt;span class="cl">git add .
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">17&lt;/span>&lt;span class="cl">git commit -m &lt;span class="s1">&amp;#39;init&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">18&lt;/span>&lt;span class="cl">git push --set-upstream origin main -f
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
-&lt;li>自定义站点内容
-参考教程&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>修改hugo.toml&lt;/li>
-&lt;/ul>
-&lt;p>注意原文中是yml最好转换下，主要修改网页图标、菜单、标题等内容
-图标维护为在static目录下&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Personal on lzc's Blog</title><link>https://lzcooker.github.io/categories/personal/</link><description>Recent content in Personal on lzc's Blog</description><image><title>lzc's Blog</title><url>https://lzcooker.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://lzcooker.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.149.1</generator><language>zh</language><copyright>©2025 lzc&amp;rsquo;s Blog</copyright><lastBuildDate>Fri, 25 Apr 2025 11:01:38 +0800</lastBuildDate><atom:link href="https://lzcooker.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Github Pages+PaperMod个人博客搭建</title><link>https://lzcooker.github.io/posts/hugo+github-pages+papermod_blog/</link><pubDate>Fri, 25 Apr 2025 11:01:38 +0800</pubDate><guid>https://lzcooker.github.io/posts/hugo+github-pages+papermod_blog/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;本文用于参考其他&lt;a href="https://lflmlxy.github.io/posts/create-blog/"&gt;教程&lt;/a&gt;，给出完整步骤完整复现，细节省略。
+[TOC]&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id="安装"&gt;安装&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;安装hugo&lt;/li&gt;
+&lt;li&gt;创建GitHub Page仓库，用于展示站点内容&lt;/li&gt;
+&lt;li&gt;创建blog源文件托管私有仓库&lt;/li&gt;
+&lt;li&gt;创建站点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 1&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#a.创建站点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 2&lt;/span&gt;&lt;span class="cl"&gt;hugo new site blog_source
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 3&lt;/span&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 4&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#b.下载主题&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 5&lt;/span&gt;&lt;span class="cl"&gt;git submodule add --depth&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 6&lt;/span&gt;&lt;span class="cl"&gt;git submodule update --init --recursive
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 7&lt;/span&gt;&lt;span class="cl"&gt;git submodule update --remote --merge
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 8&lt;/span&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt; 9&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#c.修改hugo.toml指定主题&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;10&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;theme&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;PaperMod&amp;#34;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;11&lt;/span&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;12&lt;/span&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#d.绑定远程仓库提交代码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;13&lt;/span&gt;&lt;span class="cl"&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;14&lt;/span&gt;&lt;span class="cl"&gt;git remote add origin git@github.com:lzcooker/blog_source.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;15&lt;/span&gt;&lt;span class="cl"&gt;git checkout -b main
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;16&lt;/span&gt;&lt;span class="cl"&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;17&lt;/span&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s1"&gt;&amp;#39;init&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="ln"&gt;18&lt;/span&gt;&lt;span class="cl"&gt;git push --set-upstream origin main -f
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="5"&gt;
+&lt;li&gt;自定义站点内容
+参考教程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;修改hugo.toml&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意原文中是yml最好转换下，主要修改网页图标、菜单、标题等内容
+图标维护为在static目录下&lt;/p&gt;</description></item></channel></rss>
